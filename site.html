@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoxStudio.com</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e1e1e1;
+        }
+        header {
+            background-color: #2a2a2a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .game-card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+            background-color: white;
+            width: 200px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+        .game-card:hover {
+            transform: scale(1.05);
+        }
+        .game-image {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2a2a2a;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Добро пожаловать на сайт FoxStudio.com</h1>
+    <nav>
+        <a href="site.html">Главная</a>
+        <a href="projects.html">Проекты</a>
+        <a href="community.html">Сообщество</a>
+        <a href="support.html">Поддержка</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Наши Проекты</h2>
+    <div class="game-card">
+        <img src="https://via.placeholder.com/200x150" alt="Игра 1" class="game-image">
+        <h3>Игра 1</h3>
+        <p>Описание игры 1.</p>
+    </div>
+    <div class="game-card">
+        <img src="https://via.placeholder.com/200x150" alt="Игра 2" class="game-image">
+        <h3>Игра 2</h3>
+        <p>Описание игры 2.</p>
+    </div>
+    <div class="game-card">
+        <img src="https://via.placeholder.com/200x150" alt="Игра 3" class="game-image">
+        <h3>Игра 3</h3>
+        <p>Описание игры 3.</p>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 Fox Inc.</p>
+</footer>
+
+</body>
+</html>
